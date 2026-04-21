@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>Contáctame</h2>
+    </header>
+    <main>
+        <section> 
+            <form action="">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"
+                placeholder="Ingrese su nombre" required><br>
+                <label for="email">Correo:</label><br>
+                <input type="email" name="email" placeholder="example@gmail.com" required><br>
+                <label for="celular">Celular (10 dígitos, empieza con 09)</label><br>
+                <input type="tel" name="celular" pattern="09[0-9]{8}" placeholder="Ingrese su número" required><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea name="mensaje" rows="5" cols="40" placeholder="Ingrese su mensaje" required></textarea>
+                <br><br>
+                <input type="submit" value="Enviar">
+                <br><br>
+            </form>
+        </section>
+
+        <nav>
+            <a href="1_quienSoy.html">Volver</a><br>
+        </nav>
+    </main>
+</body>
+</html>
