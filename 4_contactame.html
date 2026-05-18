@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contáctame</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <header>
-        <h2>Contáctame</h2>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="2_experienciaLaboral.html">Experiencia Laboral</a>
+            <a href="3_portafolio.html">Portafolio</a>
+            <a href="4_contactame.html">Contáctame</a>
+        </nav>
     </header>
+    
     <main>
         <section> 
+            <h2>Contáctame</h2>
             <form action="">
                 <label for="nombre">Nombre:</label><br>
                 <input type="text" id="nombre" name="nombre"
@@ -22,14 +30,10 @@
                 <label for="mensaje">Mensaje:</label><br>
                 <textarea name="mensaje" rows="5" cols="40" placeholder="Ingrese su mensaje" required></textarea>
                 <br><br>
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar" class="btn-enviar">
                 <br><br>
             </form>
         </section>
-
-        <nav>
-            <a href="index.html">Volver</a><br>
-        </nav>
     </main>
 </body>
 </html>
