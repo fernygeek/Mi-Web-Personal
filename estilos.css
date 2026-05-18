@@ -1,0 +1,155 @@
+/* Estilos generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+section {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+
+section h2 {
+    color: #1A5FAD;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+section p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+/* Header y navegación */
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1A5FAD;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    color: #9a1770;
+}
+
+/* index */
+
+.contenido-index {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+
+.foto-perfil {
+    flex-shrink: 0;
+}
+
+.foto-perfil img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.texto {
+    flex: 1;
+}
+
+.texto h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 1rem 0;
+}
+
+.texto h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1A5FAD;
+    margin: 0 0 1.5rem 0;
+}
+
+.texto p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.redes-sociales {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.redes-sociales img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.researchGate img {
+    width: 150px;
+    height: 50px;
+    display: block;
+}
+
+.btn-enviar {
+    background-color: #1A5FAD;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.8rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background-color: #b91d8f;
+    transform: scale(1.05);
+}
