@@ -371,3 +371,20 @@ form{max-width:650px}form label{display:block;margin:18px 0 7px;font-weight:600}
     .contacto-opciones { gap: 18px; }
     .contacto-form-panel h2 { font-size: 26px; }
 }
+
+/* Al expandir una tarjeta, mostrar una sola descripcion completa. */
+.proyecto-cuerpo:has(> .proyecto-detalles[open]) > .proyecto-resumen {
+    display: none;
+}
+.proyecto-detalles[open] > p {
+    display: block;
+    overflow: visible;
+    max-height: none;
+    -webkit-line-clamp: unset;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+.proyecto-detalles .detalle-cerrar { display: none; }
+.proyecto-detalles[open] .detalle-abrir { display: none; }
+.proyecto-detalles[open] .detalle-cerrar { display: inline; }
+.contacto-whatsapp-card .whatsapp-icono { margin-bottom: 22px; }
